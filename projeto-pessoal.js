@@ -5,6 +5,9 @@ let idade;
 let tipoSanguineo;
 let fatorRh;
 
+let listaDeDoadores = [];
+let listaDeRecebedores = [];
+
 // funções
 
 function retornarNome () {
@@ -19,19 +22,23 @@ function retornarIdade () {
 }
 
 function retornarTipoSanguineo () {
-    tipoSanguineo = prompt ('Qual é o seu tipo sanguíneo?');
+    tipoSanguineo = prompt ('Qual é o seu tipo sanguíneo?').trim().toUpperCase();
     
-    while (tipoSanguineo != "A" || tipoSanguineo != "B" || tipoSanguineo != "AB" || tipoSanguineo != "O") {
-        tipoSanguineo = prompt ('Qual é o seu tipo sanguíneo?');
+    while (tipoSanguineo !== "A" && tipoSanguineo !== "B" && tipoSanguineo !== "AB" && tipoSanguineo !== "O") {
+        tipoSanguineo = prompt ('Qual é o seu tipo sanguíneo?').trim().toUpperCase();
     }
 }
 
 function retornarFatorRh () {
-    fatorRh = prompt ('É positivo (+) ou negativo (-)?');
+    fatorRh = prompt ('É positivo (+) ou negativo (-)?').trim().toLowerCase();
 
-    while (fatorRh != "-" || fatorRh != "+" || fatorRh != "Negativo" || fatorRh != "Positivo") {
-        fatorRh = prompt ('É positivo (+) ou negativo (-)?');
+    while (fatorRh !== "-" && fatorRh !== "+" && fatorRh !== "negativo" && fatorRh !== "positivo") {
+        fatorRh = prompt ('É positivo (+) ou negativo (-)?').trim().toLowerCase();
     }
+}
+
+function verificarCompatibilidade () {
+    const rh = (fatorRh == 'positivo' || fatorRh == '+') ? '+' : '-';
 }
 
 // prompts
@@ -41,5 +48,11 @@ retornarIdade ();
 retornarTipoSanguineo ();
 retornarFatorRh ();
 
-// verificadores
+// logs
 
+console.log ('');
+console.log ('*Ficha de Compatibilidade Sanguínea*');
+console.log (`Nome: ${nome}`);
+console.log (`Idade: ${idade}`);
+console.log (`Tipo Sanguíneo: ${tipoSanguineo}`);
+console.log (`Fator RH: ${fatorRh}`);
