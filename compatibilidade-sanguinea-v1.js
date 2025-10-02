@@ -89,7 +89,7 @@ retornarIdade ();
 retornarTipoSanguineo ();
 retornarFatorRh ();
 verificarCompatibilidade ();
-console.log ('Não teste');
+alert ('920');
 
 // logs
 
