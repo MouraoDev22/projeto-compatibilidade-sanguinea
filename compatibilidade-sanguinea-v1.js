@@ -89,6 +89,7 @@ retornarIdade ();
 retornarTipoSanguineo ();
 retornarFatorRh ();
 verificarCompatibilidade ();
+verificarCompatibilidade ();
 
 // logs
 
