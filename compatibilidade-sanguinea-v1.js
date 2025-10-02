@@ -89,7 +89,7 @@ retornarIdade ();
 retornarTipoSanguineo ();
 retornarFatorRh ();
 verificarCompatibilidade ();
-console.log ('Teste');
+console.log ('Não teste');
 
 // logs
 
