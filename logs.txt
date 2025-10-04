@@ -1,0 +1,53 @@
+commit da32991213705dff820113fcc9324a6ba6796331 (HEAD -> main, origin/main, origin/HEAD)
+Author: Mourão <p3dr0sk0sk7160@gmail.com>
+Date:   Fri Oct 3 10:08:10 2025 -0300
+
+    Update README.md
+
+commit ccc2bfc509bb3c3af1e3de67f8f3b59230227c89
+Author: Mourão <p3dr0sk0sk7160@gmail.com>
+Date:   Fri Oct 3 10:07:30 2025 -0300
+
+    Create README.md
+
+:...skipping...
+commit da32991213705dff820113fcc9324a6ba6796331 (HEAD -> main, origin/main, origin/HEAD)
+Author: Mourão <p3dr0sk0sk7160@gmail.com>
+Date:   Fri Oct 3 10:08:10 2025 -0300
+
+    Update README.md
+
+commit ccc2bfc509bb3c3af1e3de67f8f3b59230227c89
+Author: Mourão <p3dr0sk0sk7160@gmail.com>
+Date:   Fri Oct 3 10:07:30 2025 -0300
+
+    Create README.md
+
+commit 3ce63c076d706d1bf54cbef9f545117675a7123b
+Merge: 99811b7 f6a3ba1
+Author: Pedro <p3dr0sk0sk7160@gmail.com>
+Date:   Fri Oct 3 09:47:44 2025 -0300
+
+    Merge branch 'main' of https://github.com/MouraoDev22/projeto-compatibilidade-sanguinea
+
+commit 99811b70eb1f5b8dd5a89bb8d7ce3827cf957b30
+Author: Pedro <p3dr0sk0sk7160@gmail.com>
+Date:   Wed Oct 1 23:44:27 2025 -0300
+
+    ajuste final final
+
+commit f6a3ba19ac5bbbf4719543bee31069e3b62ff32b
+Author: Pedro <p3dr0sk0sk7160@gmail.com>
+Date:   Wed Oct 1 23:44:27 2025 -0300
+
+    ajuste final
+
+commit 18eba970e4470aba21abc03da117a841d2b027b3
+Author: Pedro <p3dr0sk0sk7160@gmail.com>
+Date:   Wed Oct 1 23:41:36 2025 -0300
+
+    ajuste
+
+commit e28204aef2d4ee4c10251b37c54e18978dca68ba
+Author: Pedro <p3dr0sk0sk7160@gmail.com>
+Date:   Wed Oct 1 23:39:04 2025 -0300
